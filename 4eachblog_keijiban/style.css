@@ -1,0 +1,130 @@
+body{
+     font-size:16px;
+     font-family:"Hiragino Kaku Gothic ProN","メイリオ","sans-serif";
+}
+
+header{
+     width:100%;
+     height:60px;
+     background-color:black;
+}
+header ul{
+     line-height:60px;     
+}
+header ul li{
+     float:left;
+     list-style:none;
+     padding-right:100px;
+     color:white;
+     font-size:18px;
+}
+main{
+     width:100%;
+     margin:0 auto;
+     margin-top:70px;
+}
+
+.left{
+	 float:left;
+     width:75%;
+}
+
+h1{
+     padding:.10em 0 0 .10em;
+     border-left:8px solid black;
+     border-bottom:4px solid black;
+     font-weight:bold;
+     text-align:left;
+}
+
+h3{
+     margin-left:20px;
+     text-align:left;
+     border-left: 4px red solid;
+     background-color:#fbfbfb;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 15px;
+     width:500px;
+     font-weight:bold;
+     font-size:20px;
+}
+
+.form{
+	 float:left;
+	 margin-right:15px;
+     margin:0 auto;
+	 background-color:#fbfbfb;
+	 border:3px #ebebeb solid;
+     width:95%;
+}
+
+form div{
+	 padding:15px;
+}
+
+
+.text,textarea{
+     border:1px solid #dfdfdf;
+     padding:5px;
+     color:#999;
+     background:#fff;
+}
+
+.submit{
+	 border:1px solid lightgray;
+	 padding:4px 10px;
+	 color:white;
+	 background-color:gray;
+	 border-radius:5px;
+	 border-bottom:solid 2px black;
+}
+
+.kiji{
+     float:left;
+	 margin-right:15px;
+     margin-top:15px;
+	 background-color:#fbfbfb;
+	 border:3px #ebebeb solid;
+     width:95%;
+}
+
+.kiji h3{  
+     margin-left:20px;
+     text-align:left;
+     border-left:none;
+     border-bottom:2px solid lightgray;
+     background-color:#fbfbfb;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 15px;
+     width:500px;
+     font-weight:bold;
+     font-size:20px;
+}
+
+
+.right{
+     float:left;
+	 width:25%
+}
+
+h2{
+     text-align:left;
+     border-bottom:2px dotted black;
+}
+
+.right ul li{
+     list-style:none;
+}
+
+footer{
+     clear:left;
+     width:100%;
+     height:60px;
+     background-color:black;
+     color:white;
+     text-align:center;
+     line-height:60px;
+}
+
