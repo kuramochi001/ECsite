@@ -1,0 +1,11 @@
+
+public class MapSampl {
+
+	public static void main(String[] args) {
+		import java.util.HashMap;
+		import java.util.Map;
+		
+		public class MapSample{
+	}
+
+}
