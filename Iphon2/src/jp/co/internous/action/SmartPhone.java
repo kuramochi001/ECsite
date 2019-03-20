@@ -1,5 +1,3 @@
 package jp.co.internous.action;
 
-public interface SmartPhone {
-
-}
+public class SmartPhone extends Phone implements Mp3Player,NewFunction{}
