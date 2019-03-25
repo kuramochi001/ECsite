@@ -1,6 +1,6 @@
-drop database if exsts sampledb;
+drop database if exists sampledb;
 create database sampledb;
-use testdb;
+use sampledb;
 
 create table sample_table(No int,name varchar(50),age int,Mail varchar(50));
 
