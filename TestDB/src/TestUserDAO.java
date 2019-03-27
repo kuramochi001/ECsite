@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -148,3 +149,33 @@ public void insert(int user_id,String name,String password){
 	}
  }
 }
+=======
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class TestUserDAO {
+
+	String name = "";
+	String password = "";
+public void select(String name,String password){
+	DBConnector db = new DBConnectior();
+	Connection con = db.getConnection();
+
+	String sql = "select * from test_table where user_name=? and password=?";
+	try{
+		PreparedStatement ps = con.prepareStatment(sql);
+		ps.setString(1,  name);
+		ps.setString(2, password);
+		ResultSet rs = ps.executeQuery();
+		if (rs.next()){
+			System.out.println(rs.getString("user_name"));
+			System.out.println(rs.getString("password"));
+		}
+	}catch(SQLException e){
+		e.printStackTrace();
+	}
+}
+}
+>>>>>>> 7341e2dcfa804fa60723ebdcfb3378bf63bb9dac
