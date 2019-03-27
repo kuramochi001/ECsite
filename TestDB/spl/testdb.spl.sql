@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 drop database if exists testdb;
 create database testdb;
 use testdb;
@@ -11,5 +10,3 @@ password varchar(255));
 insert into test_table values(1,"taro","123");
 insert into test_table values(2,"jiro","456");
 insert into test_table values(3,"hanako","789");
-=======
->>>>>>> 7341e2dcfa804fa60723ebdcfb3378bf63bb9dac

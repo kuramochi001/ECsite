@@ -1,8 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
-=======
-<fullyQualifiedTypeName name="java.lang.System"/>
->>>>>>> 7341e2dcfa804fa60723ebdcfb3378bf63bb9dac
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
