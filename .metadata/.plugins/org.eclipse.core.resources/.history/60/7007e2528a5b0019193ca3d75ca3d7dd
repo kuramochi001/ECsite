@@ -1,6 +1,0 @@
-set names utf8;
-set foreign_key_ghacks = 0;
-drop database if exists logindb kuramochi;
-create database logindb_kuramochi;
-
-create table user()

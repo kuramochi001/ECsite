@@ -1,0 +1,8 @@
+127.0.0.1 - - [17/Apr/2019:21:29:00 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [17/Apr/2019:21:29:03 +0900] "GET /webPro5/ HTTP/1.1" 200 457
+0:0:0:0:0:0:0:1 - - [17/Apr/2019:21:29:10 +0900] "POST /webPro5/HelloStrutsAction.action;jsessionid=C9E25ECE1317FA446CB92D905D2D047A HTTP/1.1" 500 7725
+0:0:0:0:0:0:0:1 - - [17/Apr/2019:21:30:30 +0900] "GET /webPro5/HelloStrutsAction.action;jsessionid HTTP/1.1" 500 7725
+0:0:0:0:0:0:0:1 - - [17/Apr/2019:21:30:31 +0900] "GET /webPro5/HelloStrutsAction.action;jsessionid HTTP/1.1" 500 7725
+0:0:0:0:0:0:0:1 - - [17/Apr/2019:21:30:33 +0900] "POST /webPro5/HelloStrutsAction.action;jsessionid=C9E25ECE1317FA446CB92D905D2D047A HTTP/1.1" 500 7725
+0:0:0:0:0:0:0:1 - - [17/Apr/2019:21:38:20 +0900] "GET /webPro5/ HTTP/1.1" 200 413
+0:0:0:0:0:0:0:1 - - [17/Apr/2019:21:38:24 +0900] "POST /webPro5/HelloStrutsAction.action HTTP/1.1" 500 7725
