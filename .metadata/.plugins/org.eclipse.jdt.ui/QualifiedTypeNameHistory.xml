@@ -3,4 +3,6 @@
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.dto.HelloStrutsDTO"/>
+<fullyQualifiedTypeName name="java.util.AbstractCollection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>
