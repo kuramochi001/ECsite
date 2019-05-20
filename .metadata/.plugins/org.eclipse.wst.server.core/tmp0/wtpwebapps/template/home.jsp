@@ -12,7 +12,7 @@
 <meta name="keywork" content="" />
 <title>Home画面</title>
 
-<style type="text/css">
+   <style type="text/css">
 /*========TAG LAYOUT=========*/
 body {
 	margin: 0;
@@ -54,11 +54,12 @@ table {
 	background-color: black;
 	clear: both;
 }
-</style>
+   </style>
 </head>
 <body>
 	<div id="header">
-		<div id="pr"></div>
+		<div id="pr">
+		</div>
 	</div>
 	<div id="main">
 		<div id="top">
@@ -71,7 +72,8 @@ table {
 		</div>
 	</div>
 	<div id="footer">
-		<div id="pr"></div>
+		<div id="pr">
+        </div>
 	</div>
 </body>
 </html>
