@@ -33,7 +33,7 @@ table {
 #top {
 	width: 780px;
 	margin: 30px auto;
-	background-color: #333;
+	border: 1px solid #333;
 }
 
 #header {
@@ -44,9 +44,8 @@ table {
 
 #main {
 	width: 100%;
-	height: 80px;
-	background-color: black;
-	clear: both;
+	height: 500px;
+	text-align: center;
 }
 
 #footer{
