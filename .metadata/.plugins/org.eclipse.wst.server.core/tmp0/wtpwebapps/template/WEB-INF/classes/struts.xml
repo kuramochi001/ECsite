@@ -38,30 +38,26 @@
 		</action>
 
 <!-- UserCreateCompleteAction -->
-		<action name="UserCreateCompleteAction"
-			class="com.internousdev.template.action.UserCreateCompleteAction"
-			method="execute">
-			<result name="success">userCreateComplete.jsp</result>
-		</action>
+
 
 <!-- BuyItameAction -->
-<!-- 		<action name="BuyItameAction" class="com.internousdev.template.action.BuyItameAction" -->
-<!-- 			method="execute"> -->
-<!-- 			<result name="success">buyItameConfirm.jsp</result> -->
-<!-- 		</action> -->
+		<action name="BuyItameAction" class="com.internousdev.template.action.BuyItemAction"
+			method="execute">
+			<result name="success">buyItameConfirm.jsp</result>
+		</action>
 
 <!-- BuyItameConfirmAction -->
-<!-- 		<action name="BuyItameConfirmAction" -->
-<!-- 			class="com.internousdev.template.action.BuyItameConfirmAction" -->
-<!-- 			method="execute"> -->
-<!-- 			<result name="success">buyItameComplete.jsp</result> -->
-<!-- 		</action> -->
+		<action name="BuyItameConfirmAction"
+			class="com.internousdev.template.action.BuyItameConfirmAction"
+			method="execute">
+			<result name="success">buyItameComplete.jsp</result>
+		</action>
 
 <!-- MyPageAction -->
-<!-- 		<action name="MyPageAction" class="com.internousdev.template.action. MyPageAction" -->
-<!-- 			method="execute"> -->
-<!-- 			<result name="success"> myPage.jsp</result> -->
-<!-- 		</action> -->
+		<action name="MyPageAction" class="com.internousdev.template.action.MyPageAction"
+			method="execute">
+			<result name="success">myPage.jsp</result>
+		</action>
 
 	</package>
 </struts>

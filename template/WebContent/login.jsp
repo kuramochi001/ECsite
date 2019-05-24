@@ -13,7 +13,7 @@
 <title>Login画面</title>
 
 <style type="text/css">
-/*============TAG LAYOUT========*/
+/*========TAG LAYOUT=========*/
 body {
 	margin: 0;
 	padding: 0;
@@ -29,7 +29,7 @@ table {
 	text-align: center;
 	margin: 0 auto;
 }
-/*============ID LAYOUT========*/
+/*=======ID LAYOUT==========*/
 #top {
 	width: 280px;
 	margin: 30px auto;

@@ -13,7 +13,7 @@
       <title>buyItem画面</title>
 
       <style type="text/css">
-/*===========TAG LAYOUT===============*/
+/*========TAG LAYOUT=========*/
 body {
 	margin: 0;
 	padding: 0;
@@ -29,11 +29,11 @@ table {
 	text-align: center;
 	margin: 0 auto;
 }
-/*===========ID LAYOUT===============*/
+/*=======ID LAYOUT==========*/
 #top {
 	width: 780px;
 	margin: 30px auto;
-	background-color: #333;
+	border: 1px solid #333;
 }
 
 #header {
@@ -44,11 +44,18 @@ table {
 
 #main {
 	width: 100%;
-	height: 80px;
+	height: 500px;
+	text-align: center;
+}
+
+#footer {
+	width: 100%;
+    height: 80px;
 	background-color: black;
 	clear: both;
 }
-      </style>
+
+</style>
 </head>
 <body>
 	<div id="header">

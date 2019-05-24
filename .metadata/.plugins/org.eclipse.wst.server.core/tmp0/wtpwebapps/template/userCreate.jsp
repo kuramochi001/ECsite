@@ -75,6 +75,14 @@ table {
 						       <label>ログインＩＤ</label>
 						</td>
 						<td>
+						     <input type="text" name="loginUserId" value="" />
+						</td>
+					</tr>
+					<tr>
+						<td>
+						       <label>ログインPASS</label>
+						</td>
+						<td>
 						     <input type="text" name="loginPassword" value="" />
 						</td>
 					</tr>

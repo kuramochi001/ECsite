@@ -32,7 +32,7 @@ table {
 /*=============ID LAYOUT=================*/
 #top {
 	width: 780px;
-	margin: 30px;
+	margin: 30px auto;
 	border: 1px solid #333;
 }
 
@@ -55,7 +55,7 @@ table {
 	clear: both;
 }
   </style>
-  
+
 </head>
 <body>
 	<div id="header">
@@ -75,6 +75,7 @@ table {
 					</tr>
 					<tr id="box">
 						<td><label>ログインPASS:</label></td>
+						<td><s:property value="loginPassword" escape="false" /></td>
 					</tr>
 					<tr id="box">
 						<td><label>ユーザー名:</label></td>

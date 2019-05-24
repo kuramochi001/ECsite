@@ -27,7 +27,7 @@ body {
 
 table {
 	text-align: center;
-	margin: 0 auto;
+	margin: 30px auto;
 }
 /*=======ID LAYOUT==========*/
 #top {
