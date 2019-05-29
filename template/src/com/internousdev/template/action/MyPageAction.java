@@ -48,7 +48,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 		int res = myPageDAO.buyItemHistoryDelete(item_transaction_id, user_master_id);
 
 		if (res > 0) {
-			session.put("message", "商品を正しく削除しました。");
+			session.put("message", "商品情報を正しく削除しました。");
 		} else if (res == 0) {
 			session.put("message", "商品情報の削除に失敗しました。");
 		}

@@ -15,9 +15,9 @@ public class MyPageDAO {
 		Connection connection = dbConnector.getConnection();
 		MyPageDTO myPageDTO = new MyPageDTO();
 		String sql = "SELECT iit.item_name,ubit.total_price,ubit.total_count,"
-				+ "ubit.pay FORM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ON"
-				+ "ubit.item_transaction_id = iit.id WHERE ubit.item_transaction_id = ? AND"
-				+ "ubituser_master_id = ? ORDER BY ubit.insert_date DESC";
+				+ "ubit.pay FROM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ON "
+				+ "ubit.item_transaction_id = iit.id WHERE ubit.item_transaction_id = ? AND "
+				+ "ubit.user_master_id = ? ORDER BY ubit.insert_date DESC";
 
 		try {
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);

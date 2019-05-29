@@ -33,19 +33,19 @@ table {
 #top {
 	width: 780px;
 	margin: 30px auto;
-	background-color: #333;
+	border: 1px solid #333;
 }
 
 #header {
 	width: 100%;
 	height: 80px;
-	background-color: black;
+	background-color: #333;
 }
 
 #main {
 	width: 100%;
 	height: 500px;
-	text-aligin: center;
+	text-align: center;
 }
 
 #footer {
@@ -65,7 +65,7 @@ table {
 			<p>MyPage</p>
 		</div>
 		<div>
-			<s:if test="session.message == ''">
+		<s:if test="session.message == ''">
 				<h3>ご購入情報は以下になります。</h3>
 				<table>
 					<tr>
@@ -74,13 +74,13 @@ table {
 					</tr>
 					<tr>
 						<td>値段</td>
-						<td><s:property value="session.total_Price" />
+						<td><s:property value="session.total_price" />
                                 <span>円</span>
 						</td>
 					</tr>
 					<tr>
 						<td>購入個数</td>
-						<td><s:property value="session.total_payment" />
+						<td><s:property value="session.total_count" />
                                 <span>個</span>
 						</td>
 					</tr>
@@ -94,6 +94,16 @@ table {
 					<s:submit value="削除" method="delete" />
 				</s:form>
 			</s:if>
+			<s:if test="session.message !=null">
+			    <h3><s:property value="session.message" /></h3>
+			</s:if>
+			    <div>
+			          <br>
+			          <span>前の画面に戻る場合は</span>
+			          <a href='<s:url action="HomeAction" />'>ログアウト</a>
+			          <span>をお願いします</span>
+			    </div>
+
 		</div>
 	</div>
 	<div id="footer">
