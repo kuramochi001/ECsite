@@ -59,7 +59,7 @@ table {
 </style>
 </head>
 <body>
-	<div id="geader">
+	<div id="header">
 		<div id="pr">
 		</div>
 	</div>
