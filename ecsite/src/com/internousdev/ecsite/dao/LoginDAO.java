@@ -3,6 +3,7 @@ package com.internousdev.ecsite.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+
 import com.internousdev.ecsite.dto.LoginDTO;
 import com.internousdev.ecsite.util.DBConnector;
 
@@ -28,7 +29,7 @@ public class LoginDAO {
     			loginDTO.setLoginPassword(resultSet.getString("login_pass"));
     			loginDTO.setUserName(resultSet.getString("user_name"));
 
-    		    if(resultSet.getString("login_id")!= null){
+    		    if(resultSet.getString("login_id") != null){
     		    	loginDTO.setLoginFlg(true);
     		    }
     		}
