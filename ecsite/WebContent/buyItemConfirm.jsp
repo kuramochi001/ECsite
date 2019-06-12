@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib prefix="s" uri="/struts-tags"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,7 +71,8 @@ table {
 		</div>
 	</div>
 	<div id="main">
-		<p>BuyItem</p>
+		<div id="top">
+		    <p>BuyItem</p>
 	</div>
 	<div>
 		<s:form>
@@ -111,6 +112,7 @@ table {
 				        onclick="submitAction('BuyItemAction')" /></td>
 				</tr>
 		</s:form>
+	 </div>
 		    <div>
 		         <p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>
 		         こちら</a></p>

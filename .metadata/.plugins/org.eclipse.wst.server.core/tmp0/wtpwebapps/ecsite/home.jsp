@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@taglib prefix="s" uri="/struts-tags"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,19 +62,20 @@ table {
 </head>
 <body>
 	<div id="header">
-		<div id="pr"></div>
+		<div id="pr">
+		</div>
 	</div>
 	<div id="main">
 		<div id="top">
 			<p>Home</p>
 		</div>
 		<div id="text-center">
-			<s:form name="HomeAction">
+			<s:form action="HomeAction">
 				<s:submit value="商品購入" />
 			</s:form>
 			<s:if test="#session.login_user_id != null">
-				<p>
-					ログアウトする場合は <a href='<s:url action="LogoutAction" />'>こちら</a>
+				<p>ログアウトする場合は
+                         <a href='<s:url action="LogoutAction" />'>こちら</a>
 				</p>
 			</s:if>
 		</div>
