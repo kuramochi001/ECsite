@@ -70,7 +70,7 @@ table {
 		<div>
 			<h3>登録する内容は以下でよろしいですか。</h3>
 			<table>
-				<s:form action="UserCreateConfirmAction">
+				<s:form action="UserCreateCompleteAction">
 
 					<tr id="box">
 					   <td>

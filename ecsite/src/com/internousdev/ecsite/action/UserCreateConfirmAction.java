@@ -12,20 +12,20 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	private String loginPassword;
 	private String userName;
 	public Map<String, Object> session;
-	private String errorMassage;
+	private String errorMessage;
 
 	public String execute(){
 
 		String result = SUCCESS;
 
 		if(!(loginUserId.equals(""))
-		  &&!(loginPassword.equals(""))
-		  &&!(userName.equals(""))){
+		  && !(loginPassword.equals(""))
+		  && !(userName.equals(""))){
 			session.put("loginUserId", loginUserId);
 			session.put("loginPassword", loginPassword);
 			session.put("userName", userName);
 		}else{
-			setErrorMassage("未入力の内容があります。");
+			setErrorMessage("未入力の内容があります。");
 			result = ERROR;
 		}
 		return result;
@@ -60,11 +60,11 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 		this.session = session;
 	}
 
-	public String getErrorMassage(){
-		return errorMassage;
+	public String getErrorMessage(){
+		return errorMessage;
 	}
 
-	public void setErrorMassage(String errorMassage){
-		this.errorMassage = errorMassage;
+	public void setErrorMessage(String errorMessage){
+		this.errorMessage = errorMessage;
 	}
 }

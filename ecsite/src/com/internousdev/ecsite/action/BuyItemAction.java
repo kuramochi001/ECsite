@@ -1,10 +1,11 @@
 package com.internousdev.ecsite.action;
 
-import com.opensymphony.xwork2.ActionSupport;
-import org.apache.struts2.interceptor.SessionAware;
-
 import java.sql.SQLException;
 import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.opensymphony.xwork2.ActionSupport;
 
 public class BuyItemAction extends ActionSupport implements SessionAware{
 	public Map<String, Object>session;
@@ -16,14 +17,14 @@ public class BuyItemAction extends ActionSupport implements SessionAware{
 		     session.put("count", count);
 		     int intCount = Integer.parseInt(session.get("count").toString());
 		     int intPrice = Integer.parseInt(session.get("buyItem_price").toString());
-		     session.put("total_price",intCount * intPrice);
+		     session.put("total_price", intCount * intPrice);
 		     String payment;
 		     if(pay.equals("1")){
 		    	    payment = "現金払い";
-		    	    session.put("pay",payment);
+		    	    session.put("pay", payment);
 		     }else{
 		    	    payment = "クレジットカード";
-		    	    session.put("pay",payment);
+		    	    session.put("pay", payment);
 		     }
 		     return result;
 	}
