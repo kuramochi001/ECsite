@@ -9,7 +9,7 @@ import com.opensymphony.xwork2.ActionSupport;
 public class LogoutAction extends ActionSupport implements SessionAware{
 
 	public Map<String, Object>session;
-	public String exexute(){
+	public String execute(){
 		session.clear();
 		return SUCCESS;
 	}

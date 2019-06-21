@@ -109,7 +109,7 @@ table {
 				    <td><input type="button" value="戻る"
 				        onclick="submitAction('HomeAction')" /></td>
 				    <td><input type="button" value="完了"
-				        onclick="submitAction('BuyItemAction')" /></td>
+				        onclick="submitAction('BuyItemConfirmAction')" /></td>
 				</tr>
 		</s:form>
 	 </div>

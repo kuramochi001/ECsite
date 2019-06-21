@@ -27,6 +27,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 			String item_transaction_id = session.get("id").toString();
 			String user_master_id = session.get("login_user_id").toString();
 			myPageList = myPageDAO.getMyPageUserInfo(item_transaction_id, user_master_id);
+
 		} else if (deleteFlg.equals("1")) {
 			delete();
 		}
@@ -59,11 +60,11 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 		this.session = session;
 	}
 
-	public ArrayList<MyPageDTO> getmyPageList() {
+	public ArrayList<MyPageDTO> getMyPageList() {
 		return this.myPageList;
 	}
 
-	public String getMessage(String message) {
+	public String getMessage() {
 		return this.message;
 	}
 

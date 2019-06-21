@@ -1,6 +1,5 @@
 package com.internousdev.ecsite.action;
 
-import java.sql.SQLException;
 import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
@@ -12,7 +11,7 @@ public class BuyItemAction extends ActionSupport implements SessionAware{
 	private int count;
 	private String pay;
 
-	public String execute()throws SQLException{
+	public String execute(){
 		     String result = SUCCESS;
 		     session.put("count", count);
 		     int intCount = Integer.parseInt(session.get("count").toString());

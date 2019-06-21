@@ -70,7 +70,7 @@ table {
 			<s:if test="myPageList == null">
 				<h3>ご購入情報はありません。</h3>
 			</s:if>
-			<s:elseif test="myPageList == null">
+			<s:elseif test="message == null">
 				<h3>ご購入情報は以下になります。</h3>
 				<table border="1">
 					<tr>
@@ -95,7 +95,7 @@ table {
 					<s:submit value="削除" />
 				</s:form>
 			</s:elseif>
-			<s:if test="message != null">
+			<s:if test="message!= null">
 				<h3>
 					<s:property value="message" />
 				</h3>
